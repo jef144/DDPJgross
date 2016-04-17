@@ -20,7 +20,10 @@ shinyUI(
       h4('Usage'),
       helpText("This utility predicts mileage and CO2 emissions based on a linear model applied to the Motor Trend 
                 dataset of cars available in 1974.  The model is based on vehicle weight, type of transmission, and 
-                and Interaction between those two variables.")
+                and Interaction between those two variables."),
+      helpText("To run the model, simply move the slider bar to represent the weight of the car (in thousands of lbs)
+                and select whether the transmission type is Manual or Automatic.  The predicted results are displayed in terms 
+               Miles per Gallon and CO2 grams/km")
     )
   )
 )
